@@ -1,0 +1,27 @@
+/* Write your CSS code here */
+.list-item-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: solid 1px #9aa5b1;
+  list-style-type: none;
+}
+.heading-date-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-item-heading {
+  color: #12022f;
+  font-family: 'Roboto';
+}
+.list-item-date {
+  color: #616e7c;
+  font-family: 'Roboto';
+}
+.list-description {
+  color: #616e7c;
+  font-family: 'Roboto';
+}
